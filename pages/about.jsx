@@ -1,5 +1,6 @@
 import React from "react";
 import Head from 'next/head';
+import Footer from 'components/Footer';
 
 const About = () => {
   return (
@@ -27,3 +28,10 @@ const About = () => {
 };
 
 export default About;
+
+About.getLayout = (page) => (
+  <>
+    {page}
+    <Footer />
+  </>
+)
