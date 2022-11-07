@@ -27,6 +27,11 @@ a {
   }
 }
 
+button {
+  padding: .5rem;
+  margin: .5rem;
+}
+
 .header {
   text-align: end;
 }

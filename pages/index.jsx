@@ -15,6 +15,9 @@ export default function Home() {
       <Link href="/members">
         <button type="button">All Members</button>
       </Link>
+      <Link href="/comments">
+        <button type="button">View Comments</button>
+      </Link>
     </div>
     </>
   )
